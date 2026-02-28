@@ -29,8 +29,7 @@ def fetchTag(artist, track):
         tags = [
             tag["name"].lower().strip()
             for tag in data["toptags"]["tag"]
-            if int(tag["count"]) > 10
-        ]
+        ][:5    ]
         return tags
 
     except Exception as e:
