@@ -1,7 +1,7 @@
 import json
 from collections import Counter
-inFile = "dataCollector/scrobbles_raw_3.json"
-outFile = "dataCollector/uniqueScrobbles_3.json"
+inFile = "dataCollector/scrobbles_raw.json"
+outFile = "dataCollector/uniqueScrobbles.json"
 
 with open(inFile, "r") as f:
     scrob = json.load(f)
