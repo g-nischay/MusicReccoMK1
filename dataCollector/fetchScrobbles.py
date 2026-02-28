@@ -9,7 +9,7 @@ load_dotenv()
 API_KEY = os.getenv("LASTFM_API_KEY")
 
 USERNAME = os.getenv("LASTFM_USERNAME")
-outFile = "dataCollector/scrobbles_raw.json"
+outFile = "dataCollector/scrobblesRaw.json"
 
 def fetchAllScrobbles():
     allTracks = []

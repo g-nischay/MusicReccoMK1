@@ -23,7 +23,7 @@ def fetchTag(artist, track):
         
         if "toptags" not in data:
             return []
-        if "tag" not in data["toptags"]
+        if "tag" not in data["toptags"]:
             return []
         tags = [
             tag["name"].lower().strip()
@@ -33,3 +33,6 @@ def fetchTag(artist, track):
         return tags
     except Exception as e:
         return []
+
+def run():
+    with open("dataColector/unique")
