@@ -8,7 +8,7 @@ __pycache__/
 *.pyc
 
 #ehh, ima decide later
-.vscode/
+# .vscode/
 
 #valuable valuable data
 dataCollector/*.json
