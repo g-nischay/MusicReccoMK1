@@ -1,0 +1,17 @@
+#DUHH
+.env
+
+#python
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+#ehh, ima decide later
+.vscode/
+
+#valuable valuable data
+dataCollector/*.json
+
+#catch
+.cache
